@@ -1,0 +1,2 @@
+[console_scripts]
+start_xss_app = XSSApp.app:start_app

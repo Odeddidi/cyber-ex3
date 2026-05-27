@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: XSSApp
+Version: 1.0
+Summary: Secure Programming XSS application
+Author: Secure Programming BIU 2021
+Requires-Dist: beautifulsoup4==4.9.3
+Requires-Dist: bs4==0.0.1
+Requires-Dist: flask==1.1.2
+Requires-Dist: jinja2==2.11.3
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
