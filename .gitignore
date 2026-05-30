@@ -1,1 +1,18 @@
-/venv
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Windows
+Thumbs.db
+Desktop.ini

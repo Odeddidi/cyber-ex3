@@ -139,7 +139,11 @@ def start_app():
     app.secret_key = secret_key
     app.config["SESSION_COOKIE_HTTPONLY"] = False
 
-    app.run(host="0.0.0.0", port=8000)
+    app.run(
+    host="0.0.0.0",
+    port=8443,
+    ssl_context=("../certs/localhost.crt", "../certs/localhost.key")
+    )
 
 
 if __name__ == "__main__":
